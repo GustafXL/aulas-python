@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Site</title>
+</head>
+<style>
+    .bloco-pai{
+        /* display flex = bloco ao lado do outro */
+        display: flex;
+        width: 100%;
+    }
+    .bloco-textos{
+        display: block;
+        width: 50%;
+    }
+    .titulo{
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+
+    .counteudo{
+        color:black;
+        font-size: 15px;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .bloco-imagem{
+        display: block;
+        width: 50%;
+    }
+    .imagem{
+        display: block;
+        width: 100%;
+    }
+    .botao{
+        color:rgb(252, 250, 253);
+        display: block;
+        width: 200px;
+        background-color: rgb(2, 2, 8);
+        padding: 5px;
+        border: 1px solid red;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bloco-meio{
+        display: block;
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+    .titulo-centro{
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .modulo{
+        color: black;
+        font-size: 15px;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .bloco-pesquisa{
+        color: black;
+        display: flex;
+        width: 100%;
+        background-color: black;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+    .caixa-texto{
+        margin-right: 50px;
+        width: 300px;
+    }
+    .search-button{
+        color: black;
+        background: white;
+        display: block;
+        border-radius: 10px;
+        width: 100px;
+        
+    }
+
+
+</style>
+<body>
+    <div class="bloco-pesquisa">
+        <input class="caixa-texto" type="text">
+        <button class="search-button"> search </button>
+    </div>
+    <div class="bloco-pai">
+        <div class="bloco-textos">
+            <h1 class="titulo">Titulo Teste</h1>
+            <p class="counteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, itaque, accusantium explicabo culpa reprehenderit eveniet rem laborum expedita fuga libero porro sunt facere praesentium! Nihil unde beatae architecto dolore adipisci!</p>
+            <button class="botao"> VAI </button>
+        </div>
+        <div class="bloco-imagem">
+            <img class="imagem" src="./imagem.jpg" alt="imagem teste">
+        </div>
+    </div>
+
+
+<div class="bloco-meio">
+    <h1 class="titulo-centro"> Titulo Teste 99 </h1>
+    <p class="modulo"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo consequuntur eius quisquam, quod ipsum similique magni aliquam deleniti modi animi, unde est expedita nostrum tempore officiis illum in? Quod, amet! </p>
+</div>
+
+
+    <div class="bloco-pai">
+        <div class="bloco-imagem">
+            <img class="imagem" src="./imagem.jpg" alt="imagem teste 2">
+        </div>
+        <div class="bloco-textos">
+            <h1 class="titulo">Titulo teste 2</h1>
+            <p class="conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti asperiores vitae a aperiam, quam rerum eaque fugit, nobis voluptatem sequi, magnam harum! Obcaecati voluptas minima ipsum eveniet illo nemo cum?</p>
+            <button class="botao">VAI</button>
+        </div>
+     </div>
+
+    <!-- TAG DE BLOCO -->
+    <!-- <div> TAG DIV </div>
+    <span> TAG SPAN </span> -->
+    <!-- TAGS DE MIDIA -->
+    <!-- TAGS DE TEXTO
+    <h1> tag H1 </h1>
+    <h2> TAG h2 </h2>
+    <h3> TAG h3 </h3>
+    <h4> TAG h4 </h4>
+    <h5> TAG h5 </h5>
+
+    <p>EESA E UMA TEG DE PARAGRAFO</p>
+    <p>eesa e uma tag de paragrafo</p> -->
+</body>
+</html>
